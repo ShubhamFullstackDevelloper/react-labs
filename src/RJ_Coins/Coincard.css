@@ -1,0 +1,15 @@
+.coin-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+}
+.coin-img{
+    height: 200px;
+    width: 200px;
+}
+.coin-badge{
+    font-size: 20px black;
+}

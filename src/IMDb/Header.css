@@ -1,0 +1,23 @@
+.header-box {
+    background-color: #141414; /* Dark background for a modern look */
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 3px solid #ff9900; /* IMDB theme color */
+    box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.3); /* Adds a soft glow effect */
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+}

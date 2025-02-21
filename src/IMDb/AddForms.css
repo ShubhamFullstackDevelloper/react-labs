@@ -1,0 +1,78 @@
+/* Form Container */
+.form-container {
+  width: 40vw;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 25px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Heading */
+.form-container h1 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Fields */
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.form-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-container input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #f5c518;
+  box-shadow: 0 0 8px rgba(245, 197, 24, 0.5);
+}
+
+/* Button Styling */
+.form-container button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #f5c518, #ff9800);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+  background: linear-gradient(135deg, #ff9800, #f5c518);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+    width: 80vw;
+  }
+}
