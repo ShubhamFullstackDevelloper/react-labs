@@ -1,17 +1,26 @@
 import React from "react";
 import "./Header.css";
-import image from "./Image/IMDB.png";
-import AddMovieButton from "./AddMovies";
+import AddMovie from "../IMDb/AddMovie"
 
-export default class Header extends React.Component {
+
+class Header extends React.Component {
     render() {
         return (
-            <div className="header-box">
-                <img className="logo" src={image} alt="IMDB Logo" />
-                <div className="button-container">
-                    <AddMovieButton openForm={this.props.openForm} />
+            <header className="Header">
+                <img className="imdb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png"  />
+                <div className="search-container">
+                    <button className="search-btn">Search</button>
                 </div>
-            </div>
+                <div>
+
+                </div>
+
+                <AddMovie openForm={this.props.openForm}/>
+              
+
+
+            </header>
         );
     }
 }
+export default Header;

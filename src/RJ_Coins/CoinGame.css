@@ -1,0 +1,16 @@
+.main-box{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9cb43 !important;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center; 
+}
+.inner-box{
+    font-size: 40px;
+    background-color: #ffb22c9a;
+}
+body{
+    background-color:  #f9cb43 ;
+}
